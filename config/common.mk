@@ -1,4 +1,4 @@
-PRODUCT_BRAND ?= Todak
+PRODUCT_BRAND ?= Bosskur
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
@@ -229,5 +229,5 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 -include vendor/lineage/config/partner_gms.mk
 
 $(call inherit-product-if-exists, vendor/extra/product.mk)
-$(call inherit-product, vendor/lineage/config/todak.mk)
+$(call inherit-product, vendor/lineage/config/bosskur.mk)
 $(call inherit-product, vendor/addons/config.mk)
